@@ -1,5 +1,5 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
+import javax.swing.JOptionPane;
 public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
@@ -29,10 +29,19 @@ public class Main {
                  {45,37,78},};
             for (int h=0; h < 3; h++){for (int j=0; j<3; j++){
                 System.out.println(number[h][j]+"\t");
-            }
+            }}
                 System.out.println();
-
+Scanner bio =new Scanner(System.in);
+int year =bio.nextInt();
+                System.out.println("YEar of birth");
+                System.out.println(year);
+                String name =JOptionPane.showInputDialog("eneter your name ");
+        System.out.println(name);
+        int birthyear =bio.nextInt();
+        System.out.println(birthyear);
+        JOptionPane.showMessageDialog(null,"hello");
             }
+
         }
-    }
+
 
