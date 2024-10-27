@@ -1,5 +1,8 @@
 import javax.swing.JOptionPane;
 public class Switch {
+    public Switch() {
+    }
+
     public static void main (String[]args){
         int ages=18;
         switch (ages){
@@ -14,6 +17,21 @@ public class Switch {
                 JOptionPane.showConfirmDialog(null,"confirm you want to exit");
 
         }
+
+
+// Adding a while loop
+        int counter = 0;
+        while (counter < 5) {
+            System.out.println("Counter: " + counter);
+            counter++;
+        }
+
+// Adding a do-while loop
+        int counter2 = 0;
+        do {
+            System.out.println("Counter2: " + counter2);
+            counter2++;
+        } while (counter2 < 5);
 
     }
 }
