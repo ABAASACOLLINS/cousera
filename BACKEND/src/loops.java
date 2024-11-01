@@ -25,7 +25,11 @@ while loops repeat sth till the crieria is satisfied and in this case the criter
             name=errorMessage;
        }
        // FOR LOOP
-
+        // a for loop does something you command it until a certain condition is satisfied but only for a number of times unlike a while loop where it can go on
+        int d=2;
+        for (d=2;d<=5;d++){
+            System.out.println("stem");
+        }
 
 
     }
