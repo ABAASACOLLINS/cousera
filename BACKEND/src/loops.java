@@ -32,5 +32,6 @@ while loops repeat sth till the crieria is satisfied and in this case the criter
         }
 
 
+
     }
 }

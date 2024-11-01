@@ -33,5 +33,6 @@ public class strings {
 if (!fed.equals(fed.toUpperCase(Locale.ROOT))){
     System.out.println("include an upper case letter");
 }
+
     }
 }
