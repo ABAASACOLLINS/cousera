@@ -5,7 +5,7 @@ public class arrays {
         int data[]={5,6,7,8};
         System.out.println(data[2]);
         for(int i=0;i<4;i++){
-            System.out.print(data[1]);
+            System.out.print(data[i]);
         }
         // 2D array with 2 rows and 3 columns
         int[][] matrix = {
@@ -14,7 +14,7 @@ public class arrays {
         };
 
 // Accessing an element
-        System.out.println(matrix[0][1]);  // Output: 2 (first row, second column)
+        System.out.println(matrix[0][0]);  // Output: 2 (first row, second column)
 
     }
 }

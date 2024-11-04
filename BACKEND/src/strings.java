@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.util.Locale;
 import java.util.Scanner;
+import java.util.StringTokenizer;
 
 public class strings {
     public static void main(String[]args){
@@ -33,6 +34,23 @@ public class strings {
 if (!fed.equals(fed.toUpperCase(Locale.ROOT))){
     System.out.println("include an upper case letter");
 }
+/*
+string buffer and string builders can be mutable
+append -add
+ insert
+ delete
+ */
+
+StringBuffer school=new StringBuffer("hello world");
+        System.out.println(school.length());
+        System.out.println(school.insert(2,"this"));
+/*
+/string builder is single threaded ie only a single thread can modify the string at a time
+
+ */
+        StringBuilder van =new StringBuilder("this is a van");
+        System.out.println(van.delete(3,5));
+        // string tokenizer- segmenting strings into tokens
 
     }
 }
