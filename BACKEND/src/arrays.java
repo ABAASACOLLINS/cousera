@@ -15,6 +15,8 @@ public class arrays {
 
 // Accessing an element
         System.out.println(matrix[0][0]);  // Output: 2 (first row, second column)
-
+int [][] edge ={{34,56,79},{57,78,8}};
+        System.out.println(edge[0][0]);
+        System.out.println(edge[1].length);
     }
 }

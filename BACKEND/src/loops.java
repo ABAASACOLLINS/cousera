@@ -13,6 +13,10 @@ while loops repeat sth till the crieria is satisfied and in this case the criter
             System.out.println("ive shifted x to "+ x);
 
         }
+        int y=5;
+        while (y!=5){
+            System.out.println("insufficient");
+        }
         System.out.println("can i do this");
         do {
             System.out.println("type x ");
@@ -30,7 +34,7 @@ while loops repeat sth till the crieria is satisfied and in this case the criter
         for (d=2;d<=5;d++){
             System.out.println("stem");
         }
-
+  
 
 
     }
