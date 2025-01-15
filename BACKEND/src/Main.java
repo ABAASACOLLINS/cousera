@@ -27,8 +27,8 @@ public class Main {
          int [][] number =new int [][]{{23,45,56},
             {98,37,78},
                  {45,37,78},};
-            for (int h=0; h < 3; h++){for (int j=0; j<3; j++){
-                System.out.println(number[h][j]+"\t");
+            for (int h=0; h<number.length; h++){for (int j=0; j<number[h].length; j++){
+                System.out.print(number[h][j]+"\n");
             }}
                 System.out.println();
 Scanner bio =new Scanner(System.in);

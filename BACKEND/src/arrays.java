@@ -2,7 +2,7 @@ public class arrays {
     public static void main(String[]args){
         //ARRAYS are forms of storng data of the same type
         //single dimensional arrays contain one row and many columns
-        int data[]={5,6,7,8};
+        int[] data ={5,6,7,8};
         System.out.println(data[2]);
         for(int i=0;i<4;i++){
             System.out.print(data[i]);
